@@ -29,24 +29,27 @@ nav.nav-custom {
     color: #858585;
 }
 
-button.btn-custom-secondary {
+a.btn-custom-secondary {
     padding: 12px 24px;
     border-radius: 32px;
     background-color: transparent;
     border:1px solid #445EE9;
     color: #445EE9;
+    text-decoration: none;
+    margin-right: 8px;
 }
 
-button.btn-custom-primary {
+a.btn-custom-primary {
     padding: 12px 24px;
     border-radius: 32px;
     background-color: #445EE9;
     border: none;
     color: #F6F8FF;
+    text-decoration: none;
 }
 
 .mt-124 {
-    margin-top: 96px;
+    margin-top: 112px;
 }
 
 .mini-headline {
@@ -57,10 +60,20 @@ button.btn-custom-primary {
     color: #445EE9;
 }
 
+.line-decoration {
+    position: absolute;
+    height: 4px;
+    width: 180px;
+    background-color: #445EE9;
+    left: 331px;
+    top: 206px;
+}
+
 h1.heading {
     font-family: Ubuntu;
     font-size: 48px;
     color: #2E2E2E;
+    font-weight: 500;
 }
 
 p.muted-text {
@@ -72,4 +85,23 @@ p.muted-text {
 p.dark {
     font-weight: 600;
     color: #2E2E2E;
+}
+
+img.mockup {
+    position: absolute;
+    top: 144px;
+}
+
+img.dec-1 {
+    position: absolute;
+    bottom: 150px;
+    right: 576px;
+    z-index: -1;
+}
+
+img.dec-2 {
+    position: absolute;
+    top: 220px;
+    right: 40px;
+    z-index: -1;
 }
