@@ -4,4 +4,4 @@ Slicing From My UI Design <a href="https://www.figma.com/file/LYFBxN4he9zU22Lwzl
 
 ## Check Online Website
 
-You can check this hero section <a href="https://rakhacimano.github.io/creta-hero-section">here</a>
+You can check this hero section <a href="https://rakhacimano.github.io/creta-hero-section">here</a>. You can see this website on your computer. Cause the responsive in mobile doesn't exist
